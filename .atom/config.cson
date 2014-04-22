@@ -1,0 +1,23 @@
+'editor':
+  'fontFamily': 'Ricty-Regular'
+  'fontSize': 14
+  'lineHeight': 1.2
+  'showIndentGuide': true
+  'showInvisibles': true
+  'softWrap': true
+  'softWrapAtPreferredLineLength': true
+  'preferredLineLength': 100
+'core':
+  'audioBeep': false
+  'themes': [
+    'solarized-dark-ui'
+    'solarized-dark-syntax'
+  ]
+'exception-reporting':
+  'userId': '899fa66f-ccfb-b685-caba-5c73d34348b9'
+'release-notes':
+  'viewedVersion': '0.90.0'
+'welcome':
+  'showOnStartup': false
+'metrics':
+  'userId': '4eed7db905d411559699016f9fcd98ef778cee39'
