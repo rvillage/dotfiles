@@ -21,6 +21,7 @@
     autosetuprebase = always
 [alias]
     ci = commit
+    cim = commit -m
     st = status --ignore-submodules=dirty
     co = checkout
     url = config --get remote.origin.url
@@ -43,6 +44,5 @@
     log = `brew --prefix git`/share/git-core/contrib/diff-highlight/diff-highlight | less
     show = `brew --prefix git`/share/git-core/contrib/diff-highlight/diff-highlight | less
     diff = `brew --prefix git`/share/git-core/contrib/diff-highlight/diff-highlight | less
-[url "git@github.com:"]
-    pushinsteadof = "https://github.com/"
-    pushinsteadof = "git://github.com/"
+[diff]
+    compactionHeuristic = true
